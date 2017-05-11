@@ -28,13 +28,6 @@ module.exports= {
     root: APP_PATH
   },
   module: {
-    preLoaders: [
-      {
-        test: /\.jsx?$/,
-        loaders: ['eslint'],
-        include: APP_PATH
-      }
-    ],
     loaders: [
       {
         test: /\.jsx?$/,
